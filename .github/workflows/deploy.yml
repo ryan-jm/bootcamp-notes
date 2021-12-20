@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: "16"
       - run: npm --prefix docs ci
-      - run: npm --prefix run build
+      - run: npm --prefix docs run build
 
       - name: Commit the result of ./dist to gh-pages branch
         run: |
