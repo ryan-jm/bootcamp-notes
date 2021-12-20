@@ -1,4 +1,5 @@
 const { description } = require("../package");
+const sidebar = require("./sidebar");
 
 module.exports = {
   title: "JavaScript Notes",
@@ -31,15 +32,7 @@ module.exports = {
         link: "https://mdn.dev",
       },
     ],
-    sidebar: [
-      {
-        title: "JavaScript Introduction",
-        path: "/intro/",
-        collapsable: false,
-        sidebarDepth: 2,
-        children: ["/intro/"],
-      },
-    ],
+    sidebar,
   },
 
   /**
