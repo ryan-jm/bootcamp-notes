@@ -56,7 +56,8 @@ For the promises example, the corresponding code for `sidebar.js` should look li
 
 VuePress comes with a lot of handy [extensions](https://vuepress.vuejs.org/guide/markdown.html) which you can use to prettify your markdown-driven web-pages, while also supporting the standard markdown syntax which you're probably used to. Code-snippets and containers can be used to provide the reader with context.
 
-**Tips, warnings, and danger messages**
+### Tips, warnings, and danger messages
+
 Likewise, if you have a tip to share with the reader, you can format them in a specific way so that it is more noticeable and appealing – the same applies to warnings and 'danger' messages.
 
 **Example code:**
