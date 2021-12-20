@@ -4,7 +4,7 @@ logoText: Logo
 heroImage: https://i.ibb.co/SXMpDj5/logo.png
 tagline:
 actionText: Notes →
-actionLink: /notes/
+actionLink: /notes/intro/
 features:
   - title: Succint
     details: Easy to read and digestible.
