@@ -6,7 +6,7 @@ module.exports = {
   base: "/bootcamp-notes/",
   description: description,
   head: [
-    ["meta", { name: "theme-color", content: "#B03E71" }],
+    ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",

@@ -74,7 +74,7 @@ Make sure you're correctly encapsulating these with the ':' markers
 :::
 
 ::: danger Markers!
-If you do not, they make not work and will make your webpage look messy.
+If you do not, they may not work and will make your webpage look messy.
 :::
 ```
 
@@ -88,5 +88,19 @@ Make sure you're correctly encapsulating these with the ':' markers
 :::
 
 ::: danger Markers!
-If you do not, they make not work and will make your webpage look messy.
+If you do not, they may not work and will make your webpage look messy.
 :::
+
+## Linting
+
+Prior to committing, please lint your code, it makes all of our lives easier if we all follow one linting structure, to make things easier, you can just run the following command in your CLI prior to pushing any changes.
+
+```bash
+npm run lint
+```
+
+The linter set up for this is prettier and it will lint every file which has been altered when that command is run.
+
+## Deploying
+
+Once you're finished with all of your changes, follow the normal `git commit` process and then open a [pull request](https://github.com/sanctumlysis/bootcamp-notes/pulls) detailing what you have added. The rest will be handled by the GitHub workflow, which will automatically compile and push changes to the `gh-pages` branch when the merge is successful.
