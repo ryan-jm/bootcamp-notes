@@ -10,8 +10,7 @@
   "repository": "/boot-camp",
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build",
-    "gh": "bash deploy-gh.sh"
+    "build": "vuepress build"
   },
   "license": "MIT",
   "devDependencies": {

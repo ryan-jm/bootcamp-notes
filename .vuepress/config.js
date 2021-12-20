@@ -2,7 +2,7 @@ const { description } = require("../package");
 
 module.exports = {
   title: "JavaScript Notes",
-  base: "/notes/",
+  base: "/bootcamp-notes/",
   description: description,
   head: [
     ["meta", { name: "theme-color", content: "#B03E71" }],
