@@ -12,6 +12,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: sanctumlysis/bootcamp-notes
-          TARGET_BRANCH: gh-pages
+          TARGET_BRANCH: main
           BUILD_SCRIPT: yarn --cwd ../../docs/ && yarn --cwd ../../docs/ build
           BUILD_DIR: docs/.vuepress/dist/
