@@ -15,7 +15,7 @@ module.exports = {
   theme: "default-prefers-color-scheme",
   themeConfig: {
     logo: "https://i.ibb.co/SXMpDj5/logo.png",
-    repo: "https://github.com/0xKoichi/notes",
+    repo: "https://github.com/sanctumlysis/bootcamp-notes",
     darkMode: true,
     editLinks: false,
     docsDir: "",
