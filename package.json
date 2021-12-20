@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp-notes",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "repository": "https://github.com/sanctumlysis/bootcamp-notes",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanctumlysis/bootcamp-notes/issues"
+  },
+  "homepage": "https://sanctumlysis.github.io/bootcamp-notes",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-theme-dark": "^0.1.0",
+    "vuepress-theme-succinct": "^1.7.2"
+  },
+  "dependencies": {
+    "vuepress-theme-default-prefers-color-scheme": "^2.0.0"
+  }
+}

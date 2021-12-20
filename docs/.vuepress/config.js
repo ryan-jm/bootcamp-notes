@@ -1,4 +1,4 @@
-const { description } = require("../package");
+const { description } = require("../../package");
 const sidebar = require("./sidebar");
 
 module.exports = {
@@ -25,7 +25,7 @@ module.exports = {
     nav: [
       {
         text: "Notes",
-        link: "/intro/",
+        link: "/notes/",
       },
       {
         text: "MDN Docs",
