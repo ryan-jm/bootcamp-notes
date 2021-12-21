@@ -6,7 +6,7 @@ tagline:
 actionText: Notes →
 actionLink: /notes/
 features:
-  - title: Succint
+  - title: Succinct
     details: Easy to read and digestible.
   - title: No Assumptions
     details: Starts with the very basics.
